@@ -1,12 +1,40 @@
+*{
+  background-color: white;
+}
 .App {
   text-align: center;
+  
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
+body {
+  background-color: white;
+  margin: 0;
+  padding: 0;
+}
 
+.navbar {
+  background-color: #333; /* Background color for the navbar */
+  overflow: hidden;
+}
+
+.navbar p {
+  float: left; /* Display <p> tags as inline elements in the navbar */
+  margin: 0;
+  padding: 15px 20px;
+}
+
+.navbar p a {
+  color: white; /* Text color for the links inside the <p> tags */
+  text-decoration: none; /* Remove underlines from links */
+}
+
+.navbar p a:hover {
+  text-decoration: underline; /* Add underline on hover */
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -14,7 +42,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: white;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
